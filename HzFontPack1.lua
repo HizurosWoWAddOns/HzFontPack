@@ -60,7 +60,7 @@ local fonts = {
 local _print=print;
 local function print(...)
 	local colors,t,c = {"0099ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"},{},1;
-	for i,v in ipairs({addon..":",...}) do
+	for i,v in ipairs({addon..HEADER_COLON,...}) do
 		if type(v)=="string" and v:match("||c") then
 			tinsert(t,v)
 		else
@@ -184,7 +184,7 @@ local options = {
 		showAddOnLoaded = { type="toggle", order=2, width="double", name=L.AddOnLoadedShow, get=getSetOption, set=getSetOption },
 		reload = { type="execute", order=3, name=RELOADUI, func=function() ReloadUI(); end },
 		fonts_label = { type="header", order=4, name=L["Fonts"] },
-		enable = { type="description", order=5, fontSize="medium", width="half", name=ENABLE..":" },
+		enable = { type="description", order=5, fontSize="medium", width="half", name=ENABLE..HEADER_COLON },
 		enable_all  = { type="execute", order=6, width="half", name=ALL, func=enableDisableAllFonts },
 		enable_none = { type="execute", order=7, width="half", name=NONE, func=enableDisableAllFonts },
 		fonts = { type="group", order=8, name=L.Fonts, get=getSetOption,set=getSetOption, args={} }
