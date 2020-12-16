@@ -6,6 +6,8 @@
 ## SavedVariables: HzFontPack1DB
 ## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, LibSharedMedia-3.0
 
+## X-Curse-Project-ID: 37044
+
 #@no-lib-strip@
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
