@@ -9,13 +9,13 @@ externals:
         url: https://repos.wowace.com/wow/callbackhandler/trunk/CallbackHandler-1.0
         tag: latest
 
-	libs/AceGUI-3.0:
-		url: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
-		tag: latest
+    libs/AceGUI-3.0:
+        url: https://repos.wowace.com/wow/ace3/trunk/AceGUI-3.0
+        tag: latest
 
-	libs/AceConfig-3.0:
-		url: https://repos.wowace.com/wow/ace3/trunk/AceConfig-3.0
-		tag: latest
+    libs/AceConfig-3.0:
+        url: https://repos.wowace.com/wow/ace3/trunk/AceConfig-3.0
+        tag: latest
 
     libs/LibSharedMedia-3.0:
         url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
@@ -25,9 +25,9 @@ externals:
 enable-nolib-creation: yes
 
 ignore:
-	- libs/LibStub/tests
-	- libs/LibStub/LibStub.toc
-	- libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
-	- libs/LibSharedMedia-3.0/lib.xml
+    - libs/LibStub/tests
+    - libs/LibStub/LibStub.toc
+    - libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
+    - libs/LibSharedMedia-3.0/lib.xml
 
 license-output: LICENSE.txt
