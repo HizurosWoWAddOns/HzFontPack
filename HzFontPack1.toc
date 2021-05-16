@@ -1,4 +1,7 @@
 ## Interface: 90005
+## Interface-Retail: 90005
+## Interface-Classic: 11307
+## Interface-BC: 20501
 ## Version: @project-version@
 ## Title: Hizuro's Font Pack
 ## Author: Hizuro
