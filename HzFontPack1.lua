@@ -59,7 +59,7 @@ local fonts = {
 
 local _print=print;
 local function print(...)
-	local colors,t,c = {"0099ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"},{},1;
+	local colors,t,c = {"82c5ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"},{},1;
 	for i,v in ipairs({addon..HEADER_COLON,...}) do
 		if type(v)=="string" and v:match("||c") then
 			tinsert(t,v)
