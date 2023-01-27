@@ -10,7 +10,10 @@ Known bugs:
 ]]
 
 HzFontPack1DB = {}
-local addon,ns,panel = ...
+local addon,ns,panel = ...;
+ns.debugMode = "@project-version@"=="@".."project-version".."@";
+LibStub("HizurosSharedTools").RegisterPrint(ns,addon,"HzFP");
+
 --local SOL = LibStub("LibSimpleOptions-1.0-be_mod");
 local SML = LibStub("LibSharedMedia-3.0");
 local AC = LibStub("AceConfig-3.0");
@@ -56,20 +59,6 @@ local fonts = {
 	{"Visitor1",			"visitor1.ttf",					37},
 	{"Visitor2",			"visitor2.ttf",					38},
 }
-
-local _print=print;
-local function print(...)
-	local colors,t,c = {"82c5ff","00ff00","ff6060","44ffff","ffff00","ff8800","ff44ff","ffffff"},{},1;
-	for i,v in ipairs({addon..HEADER_COLON,...}) do
-		if type(v)=="string" and v:match("||c") then
-			tinsert(t,v)
-		else
-			tinsert(t,"|cff"..colors[c]..tostring(v).."|r");
-			c = c<#colors and c+1 or 1;
-		end
-	end
-	_print(unpack(t));
-end
 
 local L = setmetatable({}, {
 	__index = function(t, k)
@@ -230,8 +219,8 @@ f:SetScript("OnEvent",function(self, event, name)
 			addFontToOptions(i);
 		end
 
-		if HzFontPack1DB.showAddOnLoaded then
-			print(L.AddOnLoaded);
+		if HzFontPack1DB.showAddOnLoaded or IsShiftKeyDown() then
+			ns:print(L.AddOnLoaded);
 		end
 
 		AC:RegisterOptionsTable(addon, options);

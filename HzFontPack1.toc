@@ -1,6 +1,6 @@
-## Interface: 90200
-## Interface-BCC: 20503
-## Interface-Classic: 11402
+## Interface: 100005
+## Interface-Wrath: 30401
+## Interface-Classic: 11403
 ## Version: @project-version@
 ## Title: Hizuro's Font Pack
 ## Author: Hizuro
@@ -10,12 +10,11 @@
 
 ## X-Curse-Project-ID: 37044
 
-#@no-lib-strip@
 libs\LibStub\LibStub.lua
 libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 libs\AceGUI-3.0\AceGUI-3.0.xml
 libs\AceConfig-3.0\AceConfig-3.0.xml
 libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
-#@end-no-lib-strip@
+libs\HizurosSharedTools\HizurosSharedTools.lua
 
 HzFontPack1.lua

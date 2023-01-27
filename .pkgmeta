@@ -21,6 +21,9 @@ externals:
         url: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
         tag: latest
 
+    libs/HizurosSharedTools:
+        url: https://github.com/HizurosWoWAddOns/HizurosSharedTools.git
+
 
 enable-nolib-creation: no
 enable-toc-creation: yes
@@ -30,5 +33,5 @@ ignore:
     - libs/LibStub/LibStub.toc
     - libs/CallbackHandler-1.0/CallbackHandler-1.0.xml
     - libs/LibSharedMedia-3.0/lib.xml
+    - libs/HizurosSharedTools/README.md
 
-license-output: LICENSE.txt
