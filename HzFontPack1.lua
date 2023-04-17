@@ -224,7 +224,9 @@ f:SetScript("OnEvent",function(self, event, name)
 		end
 
 		AC:RegisterOptionsTable(addon, options);
-		ACD:AddToBlizOptions(addon);
+		local opts = ACD:AddToBlizOptions(addon);
+		LibStub("HizurosSharedTools").BlizzOptions_ExpandOnShow(opts);
+		LibStub("HizurosSharedTools").AddCredit(addon);
 
 		self:UnregisterEvent("ADDON_LOADED");
 	elseif event=="PLAYER_LOGIN" then

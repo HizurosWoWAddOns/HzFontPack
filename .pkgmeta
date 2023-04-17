@@ -24,6 +24,9 @@ externals:
     libs/HizurosSharedTools:
         url: https://github.com/HizurosWoWAddOns/HizurosSharedTools.git
 
+    libs/LibColors-1.0:
+        url: https://github.com/HizurosWoWAddOns/LibColors-1.0.git
+        tag: latest
 
 enable-nolib-creation: no
 enable-toc-creation: yes
