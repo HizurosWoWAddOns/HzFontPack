@@ -15,6 +15,7 @@ libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
 libs\AceGUI-3.0\AceGUI-3.0.xml
 libs\AceConfig-3.0\AceConfig-3.0.xml
 libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+libs\LibColors-1.0\LibColors-1.0.lua
 libs\HizurosSharedTools\HizurosSharedTools.lua
 
 HzFontPack1.lua
