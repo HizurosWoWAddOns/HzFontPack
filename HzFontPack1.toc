@@ -1,8 +1,9 @@
 ## Interface: 100100
-## Interface-Wrath: 30401
+## Interface-Wrath: 30402
 ## Interface-Classic: 11403
 ## Version: @project-version@
 ## Title: Hizuro's Font Pack
+## IconTexture: 134330
 ## Author: Hizuro
 ## Notes: A little fontpack for use in other addons.
 ## SavedVariables: HzFontPack1DB
