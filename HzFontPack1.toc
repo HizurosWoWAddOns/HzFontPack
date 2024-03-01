@@ -1,6 +1,6 @@
 ## Interface: 100205
 ## Interface-Wrath: 30403
-## Interface-Classic: 11500
+## Interface-Classic: 11501
 ## Version: @project-version@
 ## Title: Hizuro's Font Pack
 ## IconTexture: 134330
