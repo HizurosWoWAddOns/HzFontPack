@@ -1,5 +1,5 @@
 # HzFontPack (WoW AddOn)
-![Build](https://github.com/HizurosWoWAddOns/HzFontPack/actions/workflows/bigwigsmods-packager.yml/badge.svg)
+![Build](https://img.shields.io/github/actions/workflow/status/HizurosWoWAddOns/HzFontPack/packager.yml?style=flat-square)
 ![Tag](https://img.shields.io/github/v/tag/HizurosWoWAddOns/HzFontPack?style=flat-square)
 ![Downloads](https://img.shields.io/github/downloads/HizurosWoWAddOns/HzFontPack/total?style=flat-square)
 ![Downloads](https://img.shields.io/github/downloads/HizurosWoWAddOns/HzFontPack/latest/total?style=flat-square)
